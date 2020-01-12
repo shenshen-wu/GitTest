@@ -28,3 +28,9 @@ git checkout --file
 
 ### 删除文件
 git rm file
+
+### 关联github远程库
+git remote add origin git@github.com:shenshen-wu/GitTest.git
+
+### 本地内容推送到github远程库
+git push -u origin master
